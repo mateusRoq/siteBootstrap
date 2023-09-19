@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title> Exemplos de Bootstrap 23-05</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      body{
+          background-color: black;
+          color: rgb(120, 119, 119);
+      }
+      .jumbotron{
+          background-color: rgb(1, 20, 162);
+          color: whitesmoke;
+          border-radius: 0px 0px 50px 50px;
+
+      }
+      h3{
+          color: whitesmoke;
+      }
+      .container{
+          border-bottom: 5px solid rgb(1, 20, 162);
+          border-radius: 10px;
+          padding: 4%;
+      }
+      .gre{
+          color: rgb(1, 20, 162);
+      }
+      p{
+          text-align: justify;
+      }
+      img{
+          border-radius: 10px;
+      }
+      .footer{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 24px;
+          font-weight: 600;
+          padding: 2%;
+          color: whitesmoke;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="jumbotron text-center">
+    <h1>Por que o Suárez é melhor que</h1>
+    <h5>Enner Valência</h5>
+  </div>
+
+  <!------------------------------- Linha 1 --------------->
+  <div class="container">
+    <div class="row">
+    
+      <div class="col-sm-6 cor1">
+        <h3>Sobre o Luiz Suárez</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nesciunt eligendi, ratione repellendus excepturi tempora numquam sunt libero soluta perspiciatis illo impedit laudantium cumque in explicabo, maiores suscipit similique fuga.</p>
+      </div>
+
+      <div class="col-sm-6 cor1 pGols">
+          <h3>Quantidade de gols</h3>
+          <p>545 gols.</p>
+          <img src="imagensUteis/image-removebg-preview.png" alt="Imagem do matador" width="80%">
+        </div>  
+    </div>
+  </div>
+  <hr>
+  <!-----------------------  Linha 2 ------------->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 cor1">
+          <h3>Trio MSN</h3>
+          <p>O trio MSN era um famoso trio de ataque do FC Barcelona, composto por Lionel Messi, Luis Suárez e Neymar. Eles jogaram juntos no Barcelona de 2014 a 2017 e foram um dos trios mais temidos e eficazes da história do futebol. </p>
+      </div>
+      
+      <div class="col-sm-5 cor2">
+          <img src="imagensUteis/image-removebg-preview (1).png" alt="" width="80%">
+      </div>
+      <div class="col-sm-3 cor2">
+          <h3>Curiosidades</h3>
+          <p>
+              Mordidas em campo;
+              <br>
+              Transferências recordes;
+              <br>
+              Artilharia na Premier League;
+              <br>
+              Nacional uruguaia;
+              <br>
+              Apelido "El Pistolero";
+          </p>
+        </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-----------------------  Linha 2 ------------->
+  <div class="container">
+      <div class="row">
+        <div class="col-sm-3 cor1">
+          <h3>Nascimento</h3>
+          <p>24 de janeiro de 1987 (idade 36 anos)</p>
+        </div>
+        
+          <div class="col-sm-3 cor2">
+          <h3>Salário</h3>
+          <p>R$3.5 mi por mês</p>
+        </div>
+        <div class="col-sm-3 cor2">
+            <h3>Gol no <span class="gre">GRE</span>nal</h3>
+            <p>A obra de arte</p>
+          </div>
+          <div class="col-sm-3 cor2">
+          <img src="imagensUteis/image-removebg-preview (2).png" alt="" width="100%">
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Feito por Mateus Roq</p>
+    </div>
+      
+  </body>
+</html>
